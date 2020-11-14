@@ -27,7 +27,7 @@ function senddetails() {
     }
     else {
 
-        window.open('mailto:astrobishan@gmail.com?subject=Astrology Query&body=' + message + "%0A%0D%0A%20Sent%20By,%0D%0A" + name);
+        window.open('mailto:shanaulhaque@live.com?subject=Consultation Request&body=' + message + "%0A%0D%0A%20Sent%20By,%0D%0A" + name);
         //setting up the value as null after the mail is sent
         // to further change the appearance of div section to null
 
@@ -58,24 +58,24 @@ function bookconsultation() {
     if (selectedvalue == "kundli-analysis") {
 
         console.log("You have selected kundli analysis");
-        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+        window.open("https");
     }
 
     else if (selectedvalue == "kundli-matching") {
         console.log("You have selected kundli matching");
-        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+        window.open("https");
 
     }
     else if (selectedvalue == "palm-reading") {
         console.log("You have selected palm reading");
-        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+        window.open("httwww.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
 
     }
 
     else if (selectedvalue == "vastu-consultation") {
 
         console.log("You have selected vastu consultation");
-        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+        window.open("httwww.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
 
     }
 
